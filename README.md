@@ -16,6 +16,8 @@ BS is a general purpose Gradually typed language which can and should be used fo
 * Significant formatting
 * Variables must be prefixed by €
 * Variable hoisting from all scopes
+* Exception handling - BS has only one exception - HALT_AND_CATCH_FIRE
+* Raise exceptions conditionally with `(unless <condition>)`
 * String processing:
   * ' ' Single quotes for ASCII strings
   * '' '' Double single quotes for ANSI strings
