@@ -14,6 +14,7 @@ BS is a general purpose Gradually typed language which can and should be used fo
 
 * Significant whitespace
 * Significant formatting
+* 17 bit integers
 * Variables must be prefixed by €
 * Variable hoisting from all scopes
 * Exception handling - BS has only one exception - HALT_AND_CATCH_FIRE
