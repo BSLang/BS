@@ -6,8 +6,8 @@ Implementation of the BS language as created by Mark Rendle at BuildStuff.lt 201
 BS is a general purpose Gradually typed language which can and should be used for building absolutely everything absolutely all the time.
 
 * BS Hates programmers
-* BS aims to create the "booby trapped aztec temple pit of fail"
-* Programs must be edited and saved using Microsoft Word
+* Booby trapped aztec temple pit of fail
+* Programs must be edited and saved using Microsoft Word (2003)
 * Compiles to ECMAScript3
 
 ##Language Features
