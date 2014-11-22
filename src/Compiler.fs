@@ -8,6 +8,8 @@ open System
 open FParsec
 open NPOI.HWPF
 
+open BS.AST
+
 let ReadFile () = 
     use stream = new FileStream("../../../sourcefiles/hello world.doc", FileMode.Open)
     let doc = NPOI.HWPF.HWPFDocument(stream)
@@ -22,13 +24,15 @@ let test p str =
 let main argv = 
     let str s = pstring s
     let space = str " "
-    let many = manyChars (noneOf "'")
+    let literal = manyChars (noneOf "'")
 
-    let asciiString = str "'" >>. many .>> str "'"
+    let asciiString = str "'" >>. literal .>> str "'"
     let comment = str "     " >>. restOfLine false
-    let echo = str "echo" >>. space >>. asciiString .>> comment .>> opt newline
+    let stat = str "echo" >>. space >>. asciiString .>> comment .>> opt newline |>> fun n -> Echo(String(n))
     
+    let statements = many stat
+
     let source = (ReadFile())
-    let r = test echo source
+    let r = test statements source
     let s = Console.ReadKey()
     0 // return an integer exit code
