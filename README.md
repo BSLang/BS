@@ -19,8 +19,12 @@ BS is a general purpose Gradually typed language which can and should be used fo
 * String processing:
   * ' ' Single quotes for ASCII strings
   * '' '' Double single quotes for ANSI strings
-  * 
+  * " " Double quotes
+  * "" "" Double double quotes
+  * «  » European quotes are used for UTF-256
+  * «« »» Double european quotes used for UTF-256 
 * Mandatory Comments - at the end of every line, demarked by 5 spaces
 * Optionally end statements with ; 
 * `unless` statements must be terminated with ;
 * Regex Aliasing - #define
+* Line numbers are mandatory, and must increment in steps of 42
