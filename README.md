@@ -2,3 +2,25 @@ BS
 ==
 
 Implementation of the BS language as created by Mark Rendle at BuildStuff.lt 2014
+
+BS is a general purpose Gradually typed language which can and should be used for building absolutely everything absolutely all the time.
+
+* BS Hates programmers
+* BS aims to create the "booby trapped aztec temple pit of fail"
+* Programs must be edited and saved using Microsoft Word
+* Compiles to ECMAScript3
+
+##Language Features
+
+* Significant whitespace
+* Significant formatting
+* Variables must be prefixed by €
+* Variable hoisting from all scopes
+* String processing:
+  * ' ' Single quotes for ASCII strings
+  * '' '' Double single quotes for ANSI strings
+  * 
+* Mandatory Comments - at the end of every line, demarked by 5 spaces
+* Optionally end statements with ; 
+* `unless` statements must be terminated with ;
+* Regex Aliasing - #define
