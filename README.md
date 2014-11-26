@@ -19,11 +19,10 @@ BS is a general purpose Gradually typed language which can and should be used fo
         (unless €name !=== null);
         €this->name = €name;
         Delete €name;
-
-  public function say(€thing isProbablyA String)
-    echo €thing, « », €this->name, BS::EOL;
-    Delete €thing;
-
+    
+      public function say(€thing isProbablyA String)
+        echo €thing, « », €this->name, BS::EOL;
+        Delete €thing;
 
 ##Language Features
 
