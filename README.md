@@ -10,6 +10,21 @@ BS is a general purpose Gradually typed language which can and should be used fo
 * Programs must be edited and saved using Microsoft Word (2003)
 * Compiles to ECMAScript3
 
+##Example program
+
+    #define /^my (.*?) thing:$/class \1:/
+    my Greeter thing:
+      public function __construct(€name)
+          HALT_AND_CATCH_FIRE
+        (unless €name !=== null);
+        €this->name = €name;
+        Delete €name;
+
+  public function say(€thing isProbablyA String)
+    echo €thing, « », €this->name, BS::EOL;
+    Delete €thing;
+
+
 ##Language Features
 
 * Significant whitespace
