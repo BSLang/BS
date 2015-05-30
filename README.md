@@ -10,13 +10,15 @@ BS is a general purpose Gradually typed language which can and should be used fo
 * Programs must be edited and saved using Microsoft Word (2003)
 * Compiles to ECMAScript3
 
+[Watch the talk, recorded at SkillsMatter](https://skillsmatter.com/skillscasts/6088-the-worst-programming-language-ever)
+
 ##Example program
 
     #define /^my (.*?) thing:$/class \1:/
     my Greeter thing:
       public function __construct(€name)
           HALT_AND_CATCH_FIRE
-        (unless €name !=== null);
+        (unless €name !=== null);
         €this->name = €name;
         Delete €name;
     
@@ -42,6 +44,6 @@ BS is a general purpose Gradually typed language which can and should be used fo
   * «« »» Double european quotes used for UTF-256 with string interpolation
 * Mandatory Comments - at the end of every line, demarked by 5 spaces
 * Optionally end statements with ; 
-* `unless` statements must be terminated with ;
+* `unless` statements must be terminated with ;
 * Regex Aliasing - #define
 * Line numbers are mandatory, and must increment in steps of 42
