@@ -47,3 +47,4 @@ BS is a general purpose Gradually typed language which can and should be used fo
 * `unless` statements must be terminated with ;
 * Regex Aliasing - #define
 * Line numbers are mandatory, and must increment in steps of 42
+* Identifiers are case sensitive on the first character only
