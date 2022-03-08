@@ -14,7 +14,7 @@ BS is a general purpose Gradually typed language which can and should be used fo
 
 ##Example program
 
-    #define /^my (.*?) thing:$/class \1:/
+    #define /^my (.*?) thing:$/ /class \1:/
     my Greeter thing:
       public function __construct(€name)
           HALT_AND_CATCH_FIRE
