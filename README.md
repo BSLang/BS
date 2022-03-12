@@ -12,7 +12,7 @@ BS is a general purpose Gradually typed language which can and should be used fo
 
 [Watch the talk, recorded at SkillsMatter](https://skillsmatter.com/skillscasts/6088-the-worst-programming-language-ever)
 
-##Example program
+## Example program
 
     #define /^my (.*?) thing:$/class \1:/
     my Greeter thing:
@@ -26,7 +26,7 @@ BS is a general purpose Gradually typed language which can and should be used fo
         echo €thing, « », €this->name, BS::EOL;
         Delete €thing;
 
-##Language Features
+## Language Features
 
 * Significant whitespace
 * Significant formatting
